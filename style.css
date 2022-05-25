@@ -1,0 +1,89 @@
+body{
+background-image: url("https://pcvector.net/uploads/posts/2018-08/1533326959_low-poly-background-generator-min.png");
+}
+
+.d10 {
+  padding: 20px 0;
+  border-bottom: 2px solid rgba(0,0,0,.05); 
+  text-align: center;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  max-width: 320px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  color: #465457;
+}
+h1 {
+  display: table;
+  width: auto;
+  margin: 0 auto;
+  padding: 15px;
+  letter-spacing: 2px;
+  border: 2px solid #cbdcea;
+  color: #394671;
+}
+h1:after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border: 2px solid #cbdcea;
+}
+main{
+  width: 50%;
+  margin: 0 auto 50px auto;
+}
+img.background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+  
+	img.bg {
+	  left: 50%;
+	  margin-left: -320px;
+	}
+  .topbutton {
+    width:100px;
+    border:2px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:10px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    cursor:pointer;
+    color:#333;
+    font-family:verdana;
+    font-size:12px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    }
+    p { 
+      font-size: 30px; 
+      text-align: center; 
+      }          
+   a:link {
+     background-color: rgb(55, 162, 162);
+   }
+   a:visited {
+     background-color: rgb(0,0,0);
+   }
+   a:hover {
+     background-color: rgb(55, 162, 162);
+   }
+   a:active {
+     background-color: rgb(0,0,0) ;
+   } 
